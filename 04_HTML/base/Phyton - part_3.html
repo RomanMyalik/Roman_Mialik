@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
        <title>Document</title>
        <style>
-        @import url(style.css) screen;
-       </style>
-       <style>
-        @import url(print.css) print;
+        table {
+         width: 100%; /* Ширина таблицы в процентах */
+        }
+        .col1 {
+         width: 100px; /* Ширина ячейки */
+        }
        </style>
 </head>
 <body>
@@ -16,29 +18,34 @@
     </p>
     <div -webkit-font-smoothing: antialiased><h1>HOW-TO: Программа на Python, Часть 3</h1></div>
 <ul>
-    <li><em>Программа на Python - часть 1</em></li>
-    <li><em>Программа на Python - часть 2</em></li>
-    <li><em>Программа на Python - часть 3</em></li>
+    
+    <li><a href="Phyton - part_1.html" target="_blank"><em>Программа на Python - часть 1</em></a></li>
+    <li><a href="Phyton - part_2.html" target="_blank"><em>Программа на Python - часть 2</em></a></li>
+    <li><a href="Phyton - part_2.html" ><em>Программа на Python - часть 3</em></a></li>
 </ul>
-    <h2>СОДЕРЖАНИЕ</h2>
+    <h2 id="CONTENT">СОДЕРЖАНИЕ</h2>
     <h3>HOW-TO: Программа на Python, Часть 3</h3>
 <ul>
-     <li><u>Модули</u></li>
-     <li><u>Функции</u></li>
+     <li><A HREF="#Modules"><u>Модули</u></A></li>
+     <li><A HREF="#Functions"><u>Функции</u></A></li>
 </ul>
 <hr>
 <p>В прошлый раз мы изучали списки, подстановку переменных, комментарии, сравнение и<br>
     присвоение, операторы <b>if</b> и <b>while</b>. Я обещал, что в этой части мы изучим модули и<br>
     функции. Давайте начнём.</p>
-    <h2>Модули</h2>
-<p>Модули предлагают способ расширить программирование на Python. Вы можете создать<br>
-    свои модули, использовать те, которые поставляются с Python или которые написали<br>
-    другие. В самом Python есть сотни модулей, которые облегчают написание программ.<br>
-    Список модулей, поставляемых с Python, находится по адресу:<br>
-    <em><u>http://docs.python.org/modindex.html</u></em>. Некоторые модули предназначены для определённых<br>
-    операционных систем, но большинство из них кроссплатформенные и работают<br>
-    одинаково на <em><u>Linux</u></em>, <em><u>Mac</u></em> и <em><u>Microsoft Windows</u></em>. Для использования внешнего модуля<br>
-    необходимо импортировать его в программу. Один из модулей, поставляемых с Python,<br>
+    <h2 id="Modules">Модули</h2>
+    <p><A HREF="#CONTENT">К содержанию</A></p>
+<p>Модули предлагают способ расширить программирование на Python. Вы можете создать свои <br> 
+    модули, использовать те, которые поставляются с Python или которые написали
+    другие. В самом <br> Python есть сотни модулей, которые облегчают написание программ.
+    Список модулей, поставляемых <br> с Python, находится по адресу:
+    <em><a href="http://docs.python.org/modindex.html" target="_blank" ><u>http://docs.python.org/modindex.html</u></a></em>.
+     Некоторые модули <br> предназначены для определённых
+    операционных систем, но большинство из них <br> кроссплатформенные и работают
+    одинаково на <u><a href="https://ru.wikipedia.org/wiki/Linux" target="_blank" >Linux</a></u>,
+     <u><a href="https://ru.wikipedia.org/wiki/Macintosh" target="_blank" >Mac</a></u> и 
+     <u><a href="https://ru.wikipedia.org/wiki/Windows" target="_blank" >Microsoft Windows</a></u>. Для использования <br> внешнего модуля
+    необходимо импортировать его в программу. Один из модулей, поставляемых с <br> Python,
     называется «random». Он даёт возможность генерировать псевдослучайные числа. Мы<br>
     используем этот модуль в нашем первом примере.</p>
 <p><code>#=======================================<br>
@@ -53,7 +60,8 @@
     мы говорили в прошлый раз. Пятая строка говорит Python, что нужно использовать<br>
     модуль «random». Мы должны явно указать Python на это.</p>
 <hr>
-<h2>Функции</h2>
+<h2 id="Functions">Функции</h2>
+<p><A HREF="#CONTENT">К содержанию</A></p>
 <p>Когда мы импортировали модуль random, мы использовали функцию <b>randint()</b>. Функция<br>
     — это блок кода, который создан для того, чтобы вызывать его в программе, обычно,<br>
     более одного раза. Это упрощает работу над программой и предотвращает набор одного и<br>
@@ -100,6 +108,13 @@
 <p>Как видите, здесь написано меньше кода — 8 строк вместо 12. Если нам нужно будет что-<br>
     либо поменять в функции, мы сможем сделать это, не создавая проблем для нашей<br>
     программы. Чтобы вызвать функцию, нужно написать её имя и параметры.</p>
+    <table>
+    <tr>
+        <td class="col1"> <a href="Phyton - part_2.html"><img title="back" src="back.png" alt="back" width="20" height="20"></a></td>
+        <td class="col1"> <a href="Phyton - part_1.html"><img title="home" src="home.png" alt="home" width="20" height="20"></a></td>
+        <td class="col1"> <a href=""><img title="next" src="next.png" alt="next" width="20" height="20"></a></td>
+    </tr> 
+    </table>
 
 </body>
 </html>
