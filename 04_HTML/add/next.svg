@@ -1,0 +1,13 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m262,105.5" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="none"/>
+  <path id="svg_2" d="m159,73.5" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="none"/>
+  <path id="svg_7" d="m151.5,65.5" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="none"/>
+  <path id="svg_10" d="m93.5,95.5l149,1" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_11" y2="94.5" x2="244.5" y1="56.5" x1="163.5" stroke="#000" fill="none"/>
+  <line stroke-width="0" opacity="0" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_12" y2="97.5" x2="244.5" y1="142.5" x1="162.5" stroke="#000" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_13" y2="143.5" x2="162.5" y1="98.5" x1="240.5" stroke="#000" fill="none"/>
+ </g>
+
+</svg>
