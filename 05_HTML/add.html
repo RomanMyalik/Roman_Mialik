@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Заполните анкету</h1>
+    <form action="http://fe.it-academy.by/TestForm.php"></form>
+    <fieldset>
+            <legend>Личные данные</legend>
+            <input type="text" size="25" required placeholder="Фамилия"><br>
+            <input type="text" size="20" required placeholder="Имя"><br>
+            <input type="text" size="24" required placeholder="Отчество"><br>
+    
+        <fieldset>
+            <legend>Паспортные данные</legend>
+            <input type="text" size="2" minlength="2" maxlength="2" pattern="^\D [^0-9]" required placeholder="Серия">
+            <input type="text" name="index" size="7" minlength="7" maxlength="7" pattern="[0-9]" required placeholder="Номер паспорта">
+        </fieldset>
+        <fieldset>
+            <legend>Дата рождения</legend>
+            <label for="index">
+                <input type="text" id="index" name="index_1" maxlength="4" pattern="[0-9]{6-10}" placeholder="год рождения">
+                <small>(4) цифры</small><br>
+                <select name="list" id="list">
+                    <optgroup label="месяц рождения">
+                        <option value="1">Январь</option>
+                        <option value="2">Февраль</option>
+                        <option value="3">Март</option>
+                        <option value="4">Апрель</option>
+                        <option value="5">Май</option>
+                        <option value="6">Июнь</option>
+                        <option value="7">Июль</option>
+                        <option value="8">Август</option>
+                        <option value="9">Сентябрь</option>
+                        <option value="10">Октябрь</option>
+                        <option value="11">Ноябрь</option>
+                        <option value="12">Декабрь</option>
+                    </optgroup>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <select name="list_1" id="list_1">
+             <optgroup label="национальность">
+                    <option value="11">РБ</option>
+                    <option value="12">РФ</option>
+                </optgroup>
+            </select>
+            <p>Адрес:</p>
+            <input type="text">
+        </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>Интересы</legend>
+        <fieldset>
+            <legend>array:Хобби</legend>
+            <input type="checkbox" name="fishing">Рыбалка <br>
+            <input type="checkbox" name="astronomy">Астрономия <br>
+            <input type="checkbox" name="diving">Дайвинг <br>
+            <input type="checkbox" name="stamps">Марки <br>
+        </fieldset>
+        <fieldset>
+            <legend>Домашние животные</legend>
+            <select name="list_2" id="list_2" size="12" multiple>
+                <optgroup label="Попугаи">
+                    <option value="1">Волнистый</option>
+                    <option value="2">Ара</option> 
+                    <option value="3">Неразлучник</option>            
+                </optgroup>
+                <optgroup label="Рыба">
+                    <option value="4">Караси</option>
+                    <option value="5">Окуни</option> 
+                    <option value="6">Осетр</option>            
+                </optgroup>
+                <optgroup label="Птицы">
+                    <option value="7">Стая ворон</option>
+                    <option value="8">Аист</option> 
+                    <option value="9">Археоптерикс</option>            
+                </optgroup>
+            </select>
+        </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>Данные для входа восстановления пароля</legend>
+        <label for="login">
+            <input type="text" id="login" name="login" autofocus size="20" pattern="^\D [^0-9]" required placeholder="Логин"><br>
+            <input type="text" id="pasword" name="pasword" size="20" autocomplete="off" maxlength="7" required placeholder="Пароль">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Координаты</legend>
+        <input type="email" name="email" id="email" multiple placeholder="введите адрес почты"><br>
+        <input type="url" name="url" id="url" multiple placeholder="введите адрес сайта">
+    </fieldset>
+    <fieldset>
+        <legend>Цифры</legend>
+        <input type="number" min="-2.5" max="2.5" step="0.1">
+        <input type="range" min="1" max="10">
+    </fieldset>
+    <fieldset>
+        <form action="http://fe.it-academy.by/TestForm.php"></form>
+        <input type="submit" value="Отправить">
+        <input type="submit" value="Сбросить"><br>
+        <legend>Кнопки упарвления</legend>
+        <a href="send.html"><img src="post.jpg" alt="img"></a>
+    </fieldset>
+    
+</body>
+</html>
