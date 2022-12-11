@@ -1,0 +1,30 @@
+.blocks1 {
+    width: 100px;
+    height: 2em;
+    border: 0;
+    display: inline-block;
+    float: left;
+    margin-top: 25px;
+}
+.blocks2 {
+    width: 100px;
+    height: 2em;
+    border: 0;
+    display: inline-block;
+    float: left;
+}
+.blocks3 {
+    width: 100px;
+    height: 2em;
+    border: 0;
+    display: inline-block;
+    float: left;
+    margin-top: 25px;
+}
+.blocks4 {
+    width: 100px;
+    height: 2em;
+    border: 0;
+    display: inline-block;
+    float: left;
+}
