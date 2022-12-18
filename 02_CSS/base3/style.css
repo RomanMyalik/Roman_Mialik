@@ -1,0 +1,30 @@
+.one{
+    width: 15em;
+    background-color: brown;
+    float: left;
+    display: block;
+}
+.two{
+    background-color: aqua;
+    margin-bottom: 0.2em;
+    margin-left: 15em;
+    width: 100%;
+    
+}
+.three{
+    background-color: aquamarine;
+    margin-bottom: 0.2em;
+    margin-left: 15em;
+    width: 100%;
+}
+.four{
+    text-align: left;
+    background-color: blueviolet;}
+    
+.img_center{
+    width: 10%;
+    float: right;  
+}
+.clear{
+    clear: both;
+    }
