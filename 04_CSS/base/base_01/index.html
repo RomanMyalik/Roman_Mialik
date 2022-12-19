@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p { text-indent: 25px; }
+        .radius {
+        background: #f0f0f0; /* Цвет фона */
+        border: 1px solid black; /* Параметры рамки */
+        padding: 15px; /* Поля вокруг текста */
+        border-radius: 0 25px 0 25px;
+        width: 650px;
+        }
+        .tooltip span{
+        border-radius: 5px 5px 5px 5px;
+        visibility: hidden;
+        position: absolute;
+        left:  180px;
+        background: #fff;
+        box-shadow: -2px 2px 10px -1px #333; 
+        border-radius: 5px;	
+        }
+        .tooltip:hover span{
+        visibility: visible;
+        }
+        </style>
+</head>
+<body>
+    <h1>Форматы файлов</h1>
+    <div class="radius">
+        <p>
+            .DOC или .doc (от англ. <a class="img" href="img"><span><img src="document.png"></span>document </a> ) - расширение имени файла,
+            используемое для файлов, 
+            представляющих текст, с разметкой или без. Расширение .DOC часто использовалось для 
+            обозначения простых текстовых файлов без формирования, однако позже стало 
+            использоваться для двоичных форматов с разметкой. <br>
+            <a class="img" href="img">Документ MS Word <span><img src="Word.jfif"></span></a>
+
+        </p>
+    </div>
+    <div class="radius">
+            <p>
+                Portable Document Format (<a class="img" href="img"><span><img src="document.png"></span>PDF </a>) - 
+                межплатформенный формат электронных документов, разработанный фирмой Adobe System с использованием ряда возможностей языка
+                Postscript. <br>
+                <a class="img" href="img">Документ PDF <span><img src="pdf.png"></span></a>
+            </p>
+    </div>
+    <div class="radius">
+        <p>
+            ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет  расширение 
+            <a class="img" href="img"><span><img src="document.png"></span>.zip </a> и хранит в сжатом или несжатом виде один или 
+            несколько файлов, которое можно из него извлечь путем распаковки с помощью специальной программы. <br>
+            <a class="img" href="img">Архив<span><img src="zip.gif"></span></a>
+        </p>
+    </div>
+    <h1>Это список файлов</h1>
+    <a class="tooltip" href="#"><img src="list.jfif"> Документ MS Word<span><img src="Word.jfif"></span>></a><br>
+    <a class="tooltip" href="#"><img src="list.jfif"> Документ PDF<span><img src="pdf.png"></span>></a><br>
+    <a class="tooltip" href="#"><img src="list.jfif">Архив<span><img src="zip.gif"></span>></a>
+    
+
+</body>
+</html>
